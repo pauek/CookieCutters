@@ -6,7 +6,7 @@ Cookie cutters in various shapes (+ scripts to make more), for those of you that
 1. Draw the silhouette
 ----------------------
 
-Create a SVG file in Inkscape with 3 layers: "cutter" (cutting parts), "join" (unions between parts, optionally), "outer" (outer silhouette).
+Create a SVG file in Inkscape with 3 layers: "cutter" (cutting parts), "join" (unions between parts, optionally), "outer" (outer silhouette). Put the shapes at the bottom left of the page, which is (0, 0) in DXF.
 
 2. Convert to DXF
 -----------------
