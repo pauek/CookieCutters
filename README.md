@@ -18,8 +18,8 @@ Using an extension of Inkscape called "Flatten Beziers" (Extensions > Modify Pat
 
 The file should be something like:
 
-   #include <cookie_cutter.scad>
-   cookie_cutter("star_hollow.dxf", 15, 3.5, 0.4);
+    #include <cookie_cutter.scad>
+    cookie_cutter("star_hollow.dxf", 15, 3.5, 0.4);
 
 The module "cookie_cutter" has parameters: filename (the DXF file you exported before), height (in mm), join height (in mm), and nozzle_width, so that you can adjust to you printer nozzle.
 
