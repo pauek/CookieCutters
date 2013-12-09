@@ -1,3 +1,4 @@
+
 CookieCutters
 =============
 
@@ -6,6 +7,8 @@ of you that have a 3D printer.
 
 1. Draw the silhouette
 ----------------------
+
+![Inkscape drawing](img/cookie_cutters_1.png)
 
 Create a SVG file in Inkscape with 3 layers: "cutter" (cutting parts),
 "join" (unions between parts, optionally), "outer" (outer
@@ -22,6 +25,8 @@ Plotter (AutoCAD DXF R14)").
 
 3. Create an OpenSCAD file
 --------------------------
+
+![OpenSCAD Render](img/cookie_cutters_2.png)
 
 The file should be something like:
 
@@ -45,6 +50,11 @@ The difference between the two versions is just that the version with
 ----------------------------
 
 Compilation might be slow, since the`cookie_cutter` module uses
-`minkowski` in several places. Export to STL, and enjoy!
+`minkowski` in several places. Export to STL, and then...
 
+5. Print
+--------
 
+![Real cutter](img/cookie_cutters_3.png)
+
+Enjoy!
