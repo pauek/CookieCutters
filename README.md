@@ -31,11 +31,13 @@ Plotter (AutoCAD DXF R14)").
 The file should be something like:
 
     #include <cookie_cutter.scad>
-    cookie_cutter("star_hollow.dxf", 15, 3.5, 0.4);
+    cookie_cutter("star.dxf", 15, 3.5, 0.4);
     
-The module `cookie_cutter` has 4 parameters: filename (the DXF file you
-exported before), height (in mm), join height (in mm), and
-nozzle_width, so that you can adjust to you printer nozzle.
+The module `cookie_cutter` has 4 parameters: *filename* (the DXF file
+you exported before), *height* (in mm), *join height* (in mm), and
+*nozzle_width*, so that you can adjust to you printer nozzle. (The
+idea here is that the walls of the cutter will be sliced with 2 lines
+and the final part will use 1 line, to make it sharper.)
 
 If you need to **join** the diferent parts of the cutter, use
 `cookie_cutter_join`:
