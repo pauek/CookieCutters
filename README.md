@@ -27,10 +27,19 @@ The file should be something like:
 
     #include <cookie_cutter.scad>
     cookie_cutter("star_hollow.dxf", 15, 3.5, 0.4);
-
-The module `cookie_cutter` has parameters: filename (the DXF file you
+    
+The module `cookie_cutter` has 4 parameters: filename (the DXF file you
 exported before), height (in mm), join height (in mm), and
 nozzle_width, so that you can adjust to you printer nozzle.
+
+If you need to **join** the diferent parts of the cutter, use
+`cookie_cutter_join`:
+
+    #include <cookie_cutter.scad>
+    cookie_cutter_join("star_hollow.dxf", 15, 3.5, 0.4);
+
+The difference between the two versions is just that the version with
+`join` will use the "join" layer in the DXF and the other one won't.
 
 4. Compile and export to STL
 ----------------------------
