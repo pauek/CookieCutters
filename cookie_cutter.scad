@@ -3,8 +3,11 @@
 // GNU GPL v2
 
 module dxf(file, layer, height) {
-   linear_extrude(height = height)
-       import(file = file, layer = layer);
+   orig = dxf_cross(file = file, layer = layer);
+   echo("origin: ", orig);
+   translate([-orig[0], -orig[1], 0])
+      linear_extrude(height = height)
+         import(file = file, layer = layer);
 }
 
 module needle(height, thin1, thin2) {
@@ -47,7 +50,6 @@ module cookie_cutter_join(file, height, join_height, nozzle_diameter) {
    union () {
       cutter(file, "cutter", height, nozzle_diameter);
       wall(file, "outer", 1, 5);
-      linear_extrude(height = join_height)
-         import(file = file, layer = "join");
+      dxf(file, "join", join_height);
    }
 }
