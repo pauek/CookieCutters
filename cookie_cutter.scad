@@ -1,3 +1,6 @@
+// Cookie cutter generator
+// Pau Fernández <pauek@minidosis.org>
+// GNU GPL v2
 
 module dxf(file, layer, height) {
    linear_extrude(height = height)
