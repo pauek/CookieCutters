@@ -1,3 +1,2 @@
 include <cookie_cutter.scad>;
-cookie_cutter("star.dxf", "star", 11, 0.4);
-
+cookie_cutter("star.dxf", 14, 4, 0.4);

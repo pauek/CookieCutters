@@ -37,6 +37,13 @@ module cookie_cutter(file, height, join_height, nozzle_diameter) {
    union () {
       cutter(file, "cutter", height, nozzle_diameter);
       wall(file, "outer", 1, 5);
+   }
+}
+
+module cookie_cutter_join(file, height, join_height, nozzle_diameter) {
+   union () {
+      cutter(file, "cutter", height, nozzle_diameter);
+      wall(file, "outer", 1, 5);
       linear_extrude(height = join_height)
          import(file = file, layer = "join");
    }
