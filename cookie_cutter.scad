@@ -46,10 +46,10 @@ module cookie_cutter(file, height, join_height, nozzle_diameter) {
    }
 }
 
-module cookie_cutter_join(file, height, join_height, nozzle_diameter) {
-   union () {
+module cookie_cutter_join(file, height, nozzle_diameter) {
+   mirror([1, 0, 0]) union () {
       cutter(file, "cutter", height, nozzle_diameter);
-      wall(file, "outer", 1, 5);
-      dxf(file, "join", join_height);
+      wall(file, "outer", 1.5, 5);
+      dxf(file, "join", 1.5);
    }
 }

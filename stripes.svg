@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="354.33069"
+   height="177.16534"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="stripes.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="178.72841"
+     inkscape:cy="55.1249"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="cm"
+     inkscape:window-width="1696"
+     inkscape:window-height="952"
+     inkscape:window-x="203"
+     inkscape:window-y="43"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="cutter"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-875.19552)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 66.038721,918.51562 221.009919,0 c 7.48497,0 13.51079,6.02582 13.51079,13.51079 l 0,61.5611 c 0,7.48499 -6.02582,13.51079 -13.51079,13.51079 l -221.009919,0 c -7.484978,0 -13.51079,-6.0258 -13.51079,-13.51079 l 0,-61.5611 c 0,-7.48497 6.025812,-13.51079 13.51079,-13.51079 z"
+       id="rect2987"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0a0a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.48895898"
+       d="m 175.20055,935.16286 0,56.06347"
+       id="path3757"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0a0a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.48895898"
+       d="m 145.40105,963.44713 56.56854,0"
+       id="path3759"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="outer"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:none;stroke:#3a30cd;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.20447286;stroke-dashoffset:0"
+       d="m 65.912452,43.320103 221.262448,0 c 7.41503,0 13.38453,5.969496 13.38453,13.38452 l 0,61.813637 c 0,7.41503 -5.9695,13.38452 -13.38453,13.38452 l -221.262448,0 c -7.415025,0 -13.384521,-5.96949 -13.384521,-13.38452 l 0,-61.813637 c 0,-7.415024 5.969496,-13.38452 13.384521,-13.38452 z"
+       id="rect2987-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0a0a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.48895898"
+       d="m 175.20055,59.967344 0,56.063466"
+       id="path3757-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0a0a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.48895898"
+       d="m 145.40105,88.251614 56.56854,0"
+       id="path3759-2"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="join"
+     style="display:inline"
+     sodipodi:insensitive="true" />
+</svg>
