@@ -12,7 +12,7 @@ module dxf(file, layer, height) {
 
 module needle(height, thin1, thin2) {
    union() {
-      cylinder(r = thin1, h = height-1.5, $fn = 6);
+      cylinder(r = thin1, h = height-0.8, $fn = 6);
       cylinder(r = thin2, h = height, $fn = 6);
    }
 }
