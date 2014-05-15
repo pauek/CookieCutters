@@ -1,2 +1,3 @@
 include <../cookie_cutter.scad>;
-cookie_cutter_join("C.dxf", 15, 0.4);
+include <config.scad>;
+cookie_cutter_join("C.dxf", height, nozzle_diameter);
