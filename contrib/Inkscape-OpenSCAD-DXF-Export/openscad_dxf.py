@@ -140,7 +140,7 @@ class OpenSCADDXFEffect(object2path.ObjectToPath):
         self.dxf += dxf_templates.r14_header
         
         scale = 25.4/90.0
-        h = inkex.unittouu(self.document.getroot().xpath('@height',namespaces=inkex.NSS)[0])
+        h = self.unittouu(self.document.getroot().xpath('@height',namespaces=inkex.NSS)[0])
 
         path = '//svg:path'
         pm = pathmodifier.PathModifier()
